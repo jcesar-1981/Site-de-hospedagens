@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:poppins;
+}
+
+.cabecalho ,.rodape{
+    width: 100%;
+    background-color: #2f86d6;    
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;        
+        padding: 40px;    
+}
+
+.cabecalho img, .rodape img {
+    width: 80px;
+    height: 80px;
+    
+}
+
+.cabecalho h1, .rodape h1{
+    font-size: 32px;
+    color:black
+}
+
+.cabecalho p, .rodape p{
+    font-weight: bold;
+    font-size: 16px;
+    color:white;
+    display:inline;
+}
+
+.texto-logo{
+    display: flex;
+    flex-direction:column; 
+    margin-left: 10px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+
+
+
+.menu nav a{
+    display: inline;  
+    
+    padding: 10px; 
+}
+
+nav a{
+    padding-right: 20px;
+    text-decoration:none;
+    color: #233032;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.tabela{
+    background-color: #f6f6f6;
+    padding:50px   
+}
+
+.marcador-azul::before {
+    content: " ";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #2f86d6;
+    border-radius: 100px;
+    
+  }
+
+nav a:hover{
+    background-color:rgb(174, 174, 234)
+}
+
+
+tbody td:hover{
+    background-color: gray;
+}
+
+
+
+td{
+   padding: 30px;
+} 
+
+th{
+    background-color:#d1d2d6
+}
+
+tr{
+    text-align: center;
+}
+
+.direitos{
+    background-color: #2f86d6;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f6f6f6;
+}
+
+.desenvolvido{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+}
+
+.desenvolvido span{
+    font-size: 16px;
+    font-weight: bold;
+    color:#2f86d6;
+}
+
+
