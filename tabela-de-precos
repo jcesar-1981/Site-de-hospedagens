@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Site de hospedagem">
+        <title>Alfatechb - Tabela de preços</title>
+        <meta name="viewport" content="width=device-width; initial-scale=1">
+        <link rel = "stylesheet" href="estilo2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+     </head>
+
+    <body>
+       <header>
+           <section class="cabecalho">
+                <div class="logo">
+                    <img src="arquivos/assets/logo-icone-escuro.png">
+          
+        
+                    <div class="texto-logo">
+                        <h1>AlfaTech</h1>
+                        <p>Soluções em hospedagem</p>
+                    </div>
+
+                </div>
+                <div class="menu">
+                    <nav> 
+                        <a href="index.html #INFORMACOES">INFORMAÇÕES</a></li>
+                        <a href="index.html #PLANOS">PLANOS</a></li>
+                        <a href="index.html #PRECOS">PREÇOS</a></li>
+                        <a href="index.html #CONTATO">CONTATO</a></li>
+                        </ul>
+                    </nav>
+                </div>
+           </section>
+        </header>
+
+        <main>       
+            <section>
+                <div class="tabela">
+                    <table>                
+                        <thead> 
+                            <tr>
+                                <td></td>
+                                <th><p>PESSOAL</p><h2>GRÁTIS</h2></th>
+                                <th><p>PROFISSIONAL</p><h2>R$29</h2></th>
+                                <th><p>EMPRESARIAL</p><h2>R$59</h2></th>
+                                <th><p>PROFISSIONAL</p><h2>R$99</h2></th>
+                        </thead>   
+                    
+                        <tbody>
+                            <tr>
+                                <th>MONITORAMENTO DE REDE</th>
+                                <td>3 REDES</td>
+                                <td>10 REDES</td>
+                                <td>20 REDES</td>
+                                <td>50 REDES</td>
+                            </tr>
+
+                            <tr>
+                                <th>DASHBOARDS</th>
+                                <td>1 DASHBOARD</td>
+                                <td>5 DASHBOARDS</td>
+                                <td>10 DASHBOARDS</td>
+                                <td>25 DASHBOARDS</td>
+                            </tr>
+                        
+                            <tr>
+                                <th>USUÁRIOS</th>
+                                <td>1 USUÁRIOS</td>
+                                <td>5 USUÁRIOS</td>
+                                <td>10 USUÁRIOS</td>
+                                <td>25 USUÁRIOS</td>
+                            </tr>
+
+                            <tr>
+                                <th>RELATÓRIO DE ATUALIZAÇÃO</th>
+                                <td>TODA HORA</td>
+                                <td>A CADA 30 MINUTOS</td>
+                                <td>QUASE EM TEMPO REAL</td>
+                                <td>TEMPO REAL*</td>
+
+                            <tr>
+                                <th>RELATÓRIO DE EMAILS</th>
+                                <td class="marcador-azul"></td>
+                                <td class="marcador-azul"></td>
+                                <td class="marcador-azul"></td>
+                                <td class="marcador-azul"></td>                        
+                            </tr>
+
+                            <tr>
+                                <th>TRANSAÇÃO ILIMITADAS</th>
+                                <td class="marcador-azul"></td>
+                                <td class="marcador-azul"></td>
+                                <td class="marcador-azul"></td>
+                                <td class="marcador-azul"></td>
+                            </tr>
+                        
+                            <tr>
+                                <th>RASTREADOR DE PAGAMENTO</th>
+                                <td class="marcador-azul"></td>
+                                <td class="marcador-azul"></td>
+                                <td class="marcador-azul"></td>
+                                <td class="marcador-azul"></td>
+                            </tr>
+                       
+                            <tr>
+                                <th>EXPORTAÇÃO DE DADOS</th>
+                                <td class="marcador-azul"></td>
+                                <td class="marcador-azul"></td>
+                                <td class="marcador-azul"></td>
+                                <td class="marcador-azul"></td>
+                            </tr>
+                                                
+                            <tr>
+                                <th>CONVERSOR DE MOEDA</th>
+                                <td></td>
+                                <td class="marcador-azul"></td>
+                                <td class="marcador-azul"></td>
+                                <td class="marcador-azul"></td>
+                            </tr>
+
+                            <tr>
+                                <th>ACESSO A API</th>
+                                <td></td>
+                                <td class="marcador-azul"></td>
+                                <td class="marcador-azul"></td>
+                                <td class="marcador-azul"></td>
+                             </tr>
+
+                            <tr>
+                                <th>ACESSO A IP</th>
+                                <td></td>
+                                <td></td>
+                                <td class="marcador-azul"></td>
+                                <td class="marcador-azul"></td>
+                            </tr>
+
+                            <tr>
+                                <th>FEED PERSONALIZADO</th>
+                                <td></td>
+                                <td></td>
+                                <td class="marcador-azul"></td>
+                                <td class="marcador-azul"></td>
+                            </tr>
+
+                            <tr>
+                                <th>LIMITE DE IMPORTAÇÃO DE DADOS</th>
+                                <td>ÚLTIMO ANO</td>
+                                <td>ÚLTIMOS 2 ANOS</td>
+                                <td>ÚLTIMOS 3 ANOS</td>
+                                <td>ÚLTIMOS 3 ANOS</td>
+                            </tr>
+
+                            <tr>
+                              <th>RETENÇÃO DE DADOS</th>
+                                <td>TEMPO DE VIDA</td>
+                                <td>TEMPO DE VIDA</td>
+                                <td>TEMPO DE VIDA</td>
+                                <td>TEMPO DE VIDA</td>
+                            </tr>
+                       
+                            <tr>
+                                <th>SUPORTE</th>
+                                <td>EMAIL</td>
+                                <td>EMAIL & CHAT</td>
+                                <td>EMAIL & CHAT</td>
+                                <td>EMAIL, CHAT & VOICE</td>
+                            </tr>
+                        </tbody>             
+                    </table>
+                </div>
+            </section>
+                    
+            <footer>
+                <section class="rodape">                 
+                        <div class="logo">
+                            <img src="arquivos/assets/logo-icone-escuro.png">
+                                       
+                                <div class="texto-logo">
+                                     <h1>AlfaTech</h1>
+                                     <p>Soluções em hospedagem</p>                                                
+                                </div>                                                           
+                        </div>                    
+                                         
+                                          
+                </section> 
+
+                <section class="direitos">
+                    <p>© AlfaTech - Soluções em hospedagem - Todos os direitos reservados</p>                                                            
+                </section>    
+
+                <section class="desenvolvido">
+                    <p> Desenvolvido por <span> "Júlio César Ramos - Developer"</span> </p>
+                </section>
+
+            </footer>
+
+        </main>
+
+    </body>
+
+</html>
